@@ -15,10 +15,10 @@ body {
     align-items: center;
     color: whitesmoke;
     font-family: "DM Mono", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.45em;
     font-weight: 100;
-    box-shadow: 0 2px 5px 0 rgba(255, 250, 250, 0.911);
+    box-shadow: 0 2px 5px 0 rgba(44, 44, 44, 0.911);
 }
 
 .no-of-bunks {
@@ -50,6 +50,12 @@ hr {
     margin-inline: 1rem;
 }
 
+.main-bunked {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1rem;
+}
+
 .main-bunker > input {
     width: 100%;
     border: 2px solid #5800FF;
@@ -66,12 +72,28 @@ hr {
     box-shadow: 0 0 8px 0 #5800FF;
 }
 
+.main-bunked > input {
+    width: 100%;
+    border: 2px solid #FF5C8D;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    border: border-box;
+    font-family: "DM Mono", sans-serif;
+    border-radius: 2px;
+}
+
+.main-bunked > input:focus {
+    border-color: #FF5C8D;
+    box-shadow: 0 0 8px 0 #FF5C8D;
+}
+
 .attendance-goal > h1 {
     font-family: "DM Mono", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;
+   
 }
 
  .range-of-goal > input {
@@ -105,11 +127,22 @@ input[type="range"]::-webkit-slider-runnable-track {
     justify-content: center;
     align-items: center;
     font-family: "DM Mono", sans-serif;
-    justify-content: space-around;
     font-size: 1.5rem;
+    
     margin-top: 2rem;
+}
+
+#goal {
+    margin-left: 7.5rem;
+}
+
+#present-attendance {
+    margin-left: 3rem;
 }
 
 section {
     margin-top: 3rem;
+    border: 2px solid #FFC600;
+    margin-inline: 0.8em;
+    border-radius: 0.5rem;
 }
