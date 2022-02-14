@@ -47,4 +47,69 @@ hr {
 .main-bunker {
     display: flex;
     flex-direction: column;
+    margin-inline: 1rem;
+}
+
+.main-bunker > input {
+    width: 100%;
+    border: 2px solid #5800FF;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    border: border-box;
+    font-family: "DM Mono", sans-serif;
+    border-radius: 2px;
+}
+
+.main-bunker > input:focus {
+    border-color: #5800FF;
+    box-shadow: 0 0 8px 0 #5800FF;
+}
+
+.attendance-goal > h1 {
+    font-family: "DM Mono", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ .range-of-goal > input {
+    display: block;
+    margin-inline: 3em;
+    width: 18rem;
+    -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #5800FF;
+    border-radius: 4px;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #E900FF;
+    margin-top: -7.5px;
+    cursor: pointer;
+  }
+
+.attendance-now > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Mono", sans-serif;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+section {
+    margin-top: 3rem;
 }
