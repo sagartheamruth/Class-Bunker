@@ -15,7 +15,7 @@ body {
     align-items: center;
     color: whitesmoke;
     font-family: "DM Mono", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0.45em;
     font-weight: 100;
     box-shadow: 0 2px 5px 0 rgba(44, 44, 44, 0.911);
@@ -28,6 +28,7 @@ body {
     justify-content: center;
     position: relative;
     margin-top: -1rem;
+    margin-left: 1rem;
 }
 
 .no-of-bunks > h1 {
@@ -36,7 +37,7 @@ body {
 }
 .no-of-bunks > p {
     margin-top: -3.5rem;
-    font-family: "lato", sans-serif;
+    font-family: "DM Mono", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -98,7 +99,7 @@ hr {
 
  .range-of-goal > input {
     display: block;
-    margin-inline: 3em;
+    margin-inline: 2em;
     width: 18rem;
     -webkit-appearance: none;
 }
@@ -132,17 +133,18 @@ input[type="range"]::-webkit-slider-runnable-track {
     margin-top: 2rem;
 }
 
-#goal {
+#goal-el {
     margin-left: 7.5rem;
 }
 
-#present-attendance {
+#present-attendance-el {
     margin-left: 3rem;
 }
 
 section {
     margin-top: 3rem;
     border: 2px solid #FFC600;
-    margin-inline: 0.8em;
+    margin-inline: 0.8rem;
     border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(44, 44, 44, 0.911);
 }

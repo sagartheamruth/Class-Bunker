@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;700&family=DM+Mono:wght@300&family=Lato:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -17,29 +18,29 @@
     </nav>
     
     <header class="no-of-bunks">
-        <h1 id="bunks-counter" class="bunks">0</h1>
-        <p>Bunks <img src="/images/pepeD.gif" alt="gachiHyper"> Available </p>
+        <h1 id="bunks-counter" class="bunks">10</h1>
+        <p>Bunks Available</p>
     </header>
 
     <hr>
 
     <main class="main-bunker">
-        <input type="number"  placeholder="Enter Number of Classes Attended 😎">
+        <input type="number"  placeholder="Enter Number of Classes Attended 😎" id="class-attended-el">
     </main>
 
     <main class="main-bunked">
-        <input type="number"  placeholder="Bunked 😖">
+        <input type="number"  placeholder="Bunked 😖" id="bunked-el">
     </main>
 
     <section class="attendance-summary">
         <div class="attendance-goal">
-            <h1>Goal🎯 <span id="goal">75</span><span class="percent">%</span></h1>
+            <h1>Goal🎯 <span id="goal-el">75</span><span class="percent">%</span></h1>
         </div>
         <div class="range-of-goal">
-            <input type="range" min="0" max="100" value="75">
+            <input type="range" min="0" max="100" value="75" id="myRange">
         </div>
         <div class="attendance-now">
-            <h1>Attendance📊 <span id="present-attendance">90</span> <span class="percent">%</span></h1>
+            <h1>Attendance📊 <span id="present-attendance-el">90</span> <span class="percent">%</span></h1>
             
         </div>
 
