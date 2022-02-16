@@ -148,3 +148,27 @@ section {
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px 0 rgba(44, 44, 44, 0.911);
 }
+
+.quote {
+    display: flex;
+    margin-top: 4rem;
+    padding-inline: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.quote > img {
+    width: 5rem;
+    aspect-ratio: 16 / 9;
+    
+}
+
+.quote > p {
+    font-family: "DM Mono", monospace;
+    font-size: 0.8rem;
+}
+
+.bunk-a-class {
+    color: #5800FF;
+   text-shadow: 2px 1px #FFC600;
+   font-weight: bold;
+}
