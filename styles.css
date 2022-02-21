@@ -59,7 +59,7 @@ hr {
 
 .main-bunker > input {
     width: 100%;
-    border: 2px solid #5800FF;
+    border: 2px solid #65C18C;
     margin: 8px 0;
     outline: none;
     padding: 8px;
@@ -69,8 +69,8 @@ hr {
 }
 
 .main-bunker > input:focus {
-    border-color: #5800FF;
-    box-shadow: 0 0 8px 0 #5800FF;
+    border-color: #65C18C;
+    box-shadow: 0 0 8px 0 #65C18C;
 }
 
 .main-bunked > input {
